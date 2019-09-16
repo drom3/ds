@@ -31,6 +31,3 @@ clean:
 
 debug:
 	valgrind $(BINDIR)/$(EXE)
-
-run:
-	./$(BINDIR)/$(EXE)
