@@ -112,9 +112,6 @@ bool Trie::remove(const std::string& str) {
     Node* current = nullptr;
     current = this->_root;
 
-    // safe to delete node
-    bool safe = true;
-
     // resets start pointer to different position
     bool reset = false;
 
